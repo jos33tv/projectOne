@@ -1,0 +1,19 @@
+#cartas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#card-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+}
+#card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cartas-img{
+    height: 90%;
+}

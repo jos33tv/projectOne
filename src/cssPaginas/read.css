@@ -1,0 +1,14 @@
+#div-leer{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    max-height: 650px;
+    overflow: scroll;
+}
+#div-leer img{
+    width: 750px;
+    height: 700px;
+}
+#div-leerContent h2{
+    background-color: rgba(0, 0, 0, 0.431);
+}

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './paginas/home.js';
+import Header from './componentes/header.js';
+import Nav from './componentes/barraDeNavegacion.js'
+import Footer from './componentes/footer.js';
+import Dc from './paginas/Dc.js';
+import Marvel from './paginas/marvel.js';
+import DarkHorse from './paginas/darkHorse.js';
+import Boom from './paginas/boom.js';
+import Idw from './paginas/idw.js';
+import Image from './paginas/imageComics.js';
+import Vertigo from './paginas/vertigo.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/> 
+      <Nav/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='DC Comics/*' element={<Dc/>}/>
+        <Route path='Marvel/*' element={<Marvel/>}/>
+        <Route path='Dark Horse/*' element={<DarkHorse/>}/>
+        <Route path='Boom! Comics/*' element={<Boom/>}/>
+        <Route path='IDW publish/*' element={<Idw/>}/>
+        <Route path='Image Comics/*' element={<Image/>}/>
+        <Route path='Vertigo Comics/*' element={<Vertigo/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }

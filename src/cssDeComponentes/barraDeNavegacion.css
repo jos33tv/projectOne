@@ -1,0 +1,28 @@
+.div-nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+#list-nav li{
+    background-color: #e1bb28;
+}
+
+#list-nav{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.items{
+    padding: 10px;
+    font-family: coming soon ;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.items:hover{
+    background-color: #f8da60;
+}

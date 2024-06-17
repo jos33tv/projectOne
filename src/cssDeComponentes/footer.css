@@ -1,0 +1,13 @@
+.div-Footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;    
+    width: 100%;
+}
+
+.namePagina{
+    text-decoration: none;
+    color: white;
+}

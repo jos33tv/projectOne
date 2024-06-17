@@ -1,0 +1,16 @@
+#div-listaComic{
+    margin-right: 54.5%;
+    background-color: rgba(0, 0, 0, 0.549);
+    margin-bottom: 10px;
+}
+#div-listaComic ul{
+    list-style: square;
+}
+.tems{
+    color: white;
+    text-decoration: none;
+}
+.tems:hover{
+    background-color: #f8da60;
+    color: black;
+}
